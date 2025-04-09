@@ -30,5 +30,50 @@ Implements ImageView, TextView, Buttons, and RecyclerViews
 
 Navigation between screens is enabled through Intents
 
-CineSwift focuses on usability, aesthetics, and interactivity, making it a solid foundation for a more feature-rich movie app in the future.
+📱 How It Works
+
+The CineSwift app project is organized and maintained on GitHub for easy access and collaboration. Here’s how it works and how you can run the project:
+
+🔀 Branch Structure
+
+All design work and XML UI files are created in a separate design branch.
+
+Once completed and tested, the design is merged into the master branch for final use.
+
+The master branch contains the working version of the app with both UI and Kotlin code integrated.
+
+🚀 Getting Started with Android Studio
+
+To run the CineSwift app:
+
+Clone the Repository
+
+bash
+git clone https://github.com/YourUsername/CineSwift.git
+Replace YourUsername with your GitHub username.
+
+Switch to the master branch
+After cloning, open a terminal in the project folder:
+
+bash
+git checkout master
+Open the Project in Android Studio
+
+Open Android Studio
+
+Choose "Open an existing project"
+
+Select the cloned CineSwift folder
+
+Build and Run the App
+
+Wait for Gradle to finish syncing
+
+Click the Run ▶️ button or use Shift + F10
+
+Choose an emulator or a real device
+
+Now you can explore the app UI, navigate through onboarding screens, and check out the main features!
+
+
 
